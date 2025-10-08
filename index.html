@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///C:/Users/Usuario/Downloads/ai_studio_code%20(39).html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Esencial para tu Viaje a China: Internet y Pagos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./index_files/css2" rel="stylesheet">
+
+    <style>
+        /* --- ESTILOS GENERALES (CSS) --- */
+        :root {
+            --bg-color: #1a1a2e;
+            --container-bg: #16213e;
+            --primary-text: #e9f1f7;
+            --secondary-text: #a7c5eb;
+            --accent-color: #53a8b6;
+            --highlight-bg: #0f3460;
+            --warning-bg: #e94560;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--container-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            color: var(--accent-color);
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        header p {
+            text-align: center;
+            color: var(--secondary-text);
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        h2, h3 {
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--highlight-bg);
+            padding-bottom: 10px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .collapsible {
+            background-color: var(--highlight-bg);
+            color: var(--primary-text);
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .collapsible:hover {
+            background-color: #1f4068;
+        }
+
+        .collapsible .toggle-icon {
+            font-size: 1.5em;
+            transition: transform 0.3s ease;
+        }
+        
+        .collapsible.active .toggle-icon {
+            transform: rotate(45deg);
+        }
+
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            background-color: transparent;
+        }
+        
+        .content-inner {
+            padding: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            background-color: rgba(255, 255, 255, 0.05);
+            margin-bottom: 10px;
+            padding: 15px;
+            border-left: 4px solid var(--accent-color);
+            border-radius: 4px;
+        }
+
+        strong {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background-color: var(--warning-bg);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        code {
+            background-color: var(--bg-color);
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            color: var(--accent-color);
+        }
+        
+        .checklist-container {
+            display: none; /* Oculto por defecto */
+            margin-top: 20px;
+            border: 2px dashed var(--accent-color);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .checklist-container h3 {
+            margin-top: 0;
+        }
+        
+        .checklist-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .checklist-item::before {
+            content: '✅';
+            margin-right: 10px;
+        }
+
+        #checklist-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(45deg, #e94560, #53a8b6);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 30px 0;
+            transition: transform 0.2s;
+        }
+        
+        #checklist-btn:hover {
+            transform: scale(1.02);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Guía Esencial para tu Viaje a China</h1>
+            <p>Cómo superar las barreras digitales de Internet y los pagos.</p>
+        </header>
+
+        <main>
+            <!-- SECCIÓN 1: INTERNET Y REDES SOCIALES -->
+            <div class="section">
+                <button class="collapsible">
+                    1. Conectividad a Internet y Redes Sociales
+                    <span class="toggle-icon">+</span>
+                </button>
+                <div class="content">
+                    <div class="content-inner">
+                        <p>En China, el acceso a internet está regulado por el "Gran Cortafuegos" (Great Firewall), que bloquea la mayoría de sitios y apps occidentales como Google, Facebook, Instagram, WhatsApp, Twitter, YouTube, etc.</p>
+                        
+                        <h3>Paso 1: La solución clave - Una VPN</h3>
+                        <p>Una <strong>VPN (Red Privada Virtual)</strong> es una aplicación que "disfraza" tu conexión a internet, haciéndola pasar por una conexión de otro país. Esto te permite saltar el bloqueo y usar tus apps habituales.</p>
+
+                        <div class="warning">
+                            ⚠️ ¡CRÍTICO! Debes instalar y configurar tu VPN <strong>ANTES</strong> de llegar a China. Las tiendas de aplicaciones (App Store, Google Play) no te permitirán descargar VPNs una vez estés allí.
+                        </div>
+
+                        <h3>Paso 2: ¡Acción! Instala y prueba tu VPN</h3>
+                        <ul>
+                            <li><strong>Elige un proveedor de confianza:</strong> No todas las VPNs funcionan bien en China. Algunas de las más recomendadas por viajeros son <code>ExpressVPN</code>, <code>Astrill VPN</code> o <code>NordVPN</code>. Investiga cuál tiene mejores reseñas recientes.</li>
+                            <li><strong>Compra una suscripción:</strong> Las VPNs gratuitas rara vez funcionan. Invierte en un plan mensual o anual.</li>
+                            <li><strong>Instala la App:</strong> Descarga la aplicación oficial en TODOS tus dispositivos (móvil, portátil, tablet).</li>
+                            <li><strong>Inicia sesión y prueba:</strong> Abre la app, inicia sesión y conéctate a un servidor (por ejemplo, en Japón, Singapur o EE.UU.) para asegurarte de que todo funciona correctamente antes de tu viaje.</li>
+                        </ul>
+
+                        <h3>Paso 3: Alternativas y Plan B</h3>
+                        <ul>
+                            <li><strong>eSIM o Roaming:</strong> Algunas tarjetas SIM virtuales (eSIM) como Airalo o Holafly, o el servicio de roaming de tu compañía, a veces evitan el bloqueo por defecto. Es una buena opción de respaldo, aunque puede ser más cara y lenta.</li>
+                            <li><strong>Tarjeta SIM local:</strong> Si compras una SIM en China, necesitarás sí o sí la VPN para acceder a servicios bloqueados.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 2: PAGOS Y DINERO -->
+            <div class="section">
+                <button class="collapsible">
+                    2. Sistemas de Pago y Tarjetas de Crédito
+                    <span class="toggle-icon">+</span>
+                </button>
+                <div class="content">
+                    <div class="content-inner">
+                        <p>El efectivo es cada vez menos común en China. El ecosistema de pagos está dominado por dos super-apps: <strong>Alipay</strong> y <strong>WeChat Pay</strong>. Las tarjetas de crédito occidentales (Visa, Mastercard) solo se aceptan en grandes hoteles, restaurantes turísticos y algunas tiendas de lujo.</p>
+                        
+                        <h3>Paso 1: Entender el ecosistema de pagos móviles</h3>
+                        <p>Casi todo, desde un taxi hasta un puesto de comida callejera, se paga escaneando un código QR con el móvil. Es la forma de pago por defecto.</p>
+
+                        <div class="warning">
+                             ⚠️ ¡IMPORTANTE! Configura tu monedero digital <strong>ANTES</strong> de viajar para evitar problemas de verificación con SMS internacionales.
+                        </div>
+                        
+                        <h3>Paso 2: ¡Acción! Configura Alipay para turistas</h3>
+                        <p>Alipay es generalmente más fácil de configurar para extranjeros que WeChat Pay. Sigue estos pasos:</p>
+                        <ul>
+                            <li><strong>Descarga la App "Alipay":</strong> Búscala en tu App Store o Google Play.</li>
+                            <li><strong>Regístrate:</strong> Usa tu número de teléfono de tu país. Recibirás un SMS de verificación.</li>
+                            <li><strong>Añade tu tarjeta de crédito/débito:</strong>
+                                <ol>
+                                    <li>Dentro de la app, ve a <code>Me</code> &gt; <code>Bank Cards</code>.</li>
+                                    <li>Pulsa en <code>Add Card</code>.</li>
+                                    <li>Introduce los datos de tu tarjeta Visa, Mastercard o similar.</li>
+                                    <li>La app hará una pequeña transacción para verificar la tarjeta.</li>
+                                </ol>
+                            </li>
+                            <li><strong>¡Listo!</strong> Ahora podrás pagar en China escaneando códigos QR. El sistema convertirá el pago de Yuanes a tu moneda local y lo cargará a tu tarjeta.</li>
+                        </ul>
+
+                        <h3>Paso 3: El Plan B - Lleva algo de efectivo</h3>
+                        <p>Aunque no es lo habitual, siempre es prudente llevar una cantidad de Yuanes (CNY) en efectivo para emergencias, pequeños comercios que no acepten pagos digitales o si tu teléfono se queda sin batería.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CHECKLIST RÁPIDO -->
+            <button id="checklist-btn">Mostrar Checklist Rápido Pre-Viaje</button>
+            <div class="checklist-container" id="checklist">
+                <h3>Checklist Esencial Antes de Volar</h3>
+                <ul>
+                    <li class="checklist-item">Comprar y suscribirse a una VPN de confianza (ExpressVPN, Astrill, etc.).</li>
+                    <li class="checklist-item">Instalar la app de la VPN en el móvil, portátil y tablet.</li>
+                    <li class="checklist-item">Probar la conexión de la VPN a varios servidores.</li>
+                    <li class="checklist-item">Descargar la app "Alipay" desde la tienda de aplicaciones.</li>
+                    <li class="checklist-item">Registrarse en Alipay con tu número de teléfono.</li>
+                    <li class="checklist-item">Añadir y verificar tu tarjeta de crédito/débito internacional en Alipay.</li>
+                    <li class="checklist-item">Cambiar una pequeña cantidad de dinero a Yuanes (CNY) para llevar en efectivo.</li>
+                    <li class="checklist-item">Descargar mapas sin conexión (usando apps como Maps.me o la función de Google Maps antes de ir).</li>
+                </ul>
+            </div>
+
+            <!-- APPS ÚTILES -->
+            <div class="section">
+                 <h2>Otras Apps Útiles en China</h2>
+                 <ul>
+                     <li><strong>WeChat (微信):</strong> Es el "WhatsApp chino", pero también red social, plataforma de pagos y mucho más. Esencial para comunicarte con locales.</li>
+                     <li><strong>Didi Chuxing (滴滴出行):</strong> El equivalente a Uber/Cabify. Imprescindible para moverse en taxi.</li>
+                     <li><strong>Baidu Maps (百度地图) o Amap (高德地图):</strong> Google Maps no funciona bien. Estas son las alternativas locales, aunque la interfaz suele estar en chino.</li>
+                     <li><strong>Pleco:</strong> Un diccionario/traductor inglés-chino increíblemente útil que funciona sin conexión.</li>
+                 </ul>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // --- CÓDIGO JAVASCRIPT ---
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Funcionalidad para las secciones desplegables
+            const collapsibles = document.querySelectorAll('.collapsible');
+
+            collapsibles.forEach(collapsible => {
+                collapsible.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('.toggle-icon');
+
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                        icon.textContent = '+';
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                        icon.textContent = '−';
+                    }
+                });
+            });
+
+            // Funcionalidad para mostrar el checklist
+            const checklistBtn = document.getElementById('checklist-btn');
+            const checklistContainer = document.getElementById('checklist');
+
+            checklistBtn.addEventListener('click', function() {
+                if (checklistContainer.style.display === 'block') {
+                    checklistContainer.style.display = 'none';
+                    this.textContent = 'Mostrar Checklist Rápido Pre-Viaje';
+                } else {
+                    checklistContainer.style.display = 'block';
+                    this.textContent = 'Ocultar Checklist';
+                }
+            });
+        });
+    </script>
+
+
+</body></html>
